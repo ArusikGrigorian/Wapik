@@ -1,0 +1,39 @@
+:root {
+  /*for colors*/
+
+  --primary: #ffffff;
+  --secondary: #eef1ec;
+
+  --primary-grey: #c1d3d2;
+  --secondary-grey-light: #f2f2f2;
+  --secondary-grey-green: #6b8485;
+
+  --primary-green-grey: #6c8282;
+  --secondary-green-grey-light: #83a7a5;
+  --primary-green-dark: #0f5f5c;
+  --primary-green-neon: #6fb048;
+  --secondary-green-neon-dark: #49732f;
+
+  --net-tw: #55acee;
+  --net-fb: #3b5998;
+  --net-in: #3f729b;
+  --net-bl: #ea4c89;
+  --net-gt: #333333;
+
+  /*for font-families*/
+
+  --primary-rbt: "Roboto";
+  --primary-mntsrt: "Montserrat";
+  --primary-mrwthr: "Merriweather";
+
+  /*for button/a-paddings*/
+
+  --sm-sm-pd: 12px 14px;
+  --md-sm-pd: 16px 22px;
+  --lrg-sm-pd: 16px 42px;
+
+  --sm-md-pd: 16px 26px;
+
+  --sm-lrg-pd: 20px 26px;
+  --md-lrg-pd: 20px 44px;
+}

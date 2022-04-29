@@ -1,0 +1,86 @@
+/*small sizes buttons*/
+
+.sm-small-btn-grey {
+  padding: var(--sm-sm-pd);
+  background-color: var(--primary-green-grey);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.sm-small-btn-neon {
+  padding: var(--sm-sm-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.med-small-btn {
+  padding: var(--md-sm-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.med-small-btn-neon-dark {
+  padding: var(--md-sm-pd);
+  background-color: var(--secondary-green-neon-dark);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.lrg-small-btn {
+  padding: var(--lrg-sm-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*medium sizes buttons*/
+
+.sm-medium-btn {
+  padding: var(--sm-md-pd);
+  background-color: var(--secondary-green-grey-light);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.sm-medium-btn-neon {
+  padding: var(--sm-md-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*large sizes buttons*/
+
+.sm-large-btn {
+  padding: var(--sm-lrg-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.med-large-btn {
+  padding: var(--md-lrg-pd);
+  background-color: var(--primary-green-neon);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

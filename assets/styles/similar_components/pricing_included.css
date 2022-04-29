@@ -1,0 +1,38 @@
+/*pricing-included primary-general page*/
+
+.pricing-included-wrapper {
+  width: 100%;
+  margin-top: 80px;
+}
+.benefits-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.single-benefit-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.need-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.help-text-wrapper {
+  margin-top: 21px;
+}
+.help-mail-wrapper {
+  margin-top: 40px;
+}
+
+/*pricing-included secondary page*/
+
+#pricing-included-secondary {
+  padding: 80px 0 100px 0;
+  background-color: var(--primary);
+}
+.pricing-included-wrapper-secondary {
+  margin-top: unset;
+}

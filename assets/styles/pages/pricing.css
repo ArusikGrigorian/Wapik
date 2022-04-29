@@ -1,0 +1,24 @@
+@import url(../main.css);
+
+/*pricing separate-secondary page*/
+
+#pricing-secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  height: 100vh;
+}
+.pricing-general-wrapper-secondary {
+  margin-top: unset;
+}
+.pricing-secondary-motto {
+  margin-top: 30px;
+}
+.pricing-secondary-title {
+  line-height: 40px;
+}
+.pricing-text-wrapper-secondary {
+  margin-top: 70px;
+}

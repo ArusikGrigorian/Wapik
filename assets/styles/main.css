@@ -1,0 +1,25 @@
+@import url(./var/var.css);
+
+@import url(./ui/font.css);
+@import url(./ui/button.css);
+@import url(./ui/features.css);
+
+@import url(./sections/section.css);
+
+@import url(./similar_components/header.css);
+@import url(./similar_components/features.css);
+@import url(./similar_components/pricing.css);
+@import url(./similar_components/pricing_included.css);
+@import url(./similar_components/download.css);
+@import url(./similar_components/footer.css);
+@import url(./similar_components/line.css);
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}

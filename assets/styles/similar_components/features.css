@@ -1,0 +1,20 @@
+.features-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 70px;
+}
+.single-feature-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.feature-subtitle-wrapper {
+  margin-top: 21px;
+}
+.feature-submotto-wrapper {
+  width: 100%;
+  margin-top: 21px;
+}

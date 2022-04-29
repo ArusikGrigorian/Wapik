@@ -1,0 +1,101 @@
+#header-with-linear {
+  position: absolute;
+  width: 100%;
+  padding-top: 36px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--primary);
+}
+.header-logo-wrapper {
+  padding-right: 24px;
+  border-right: 1px solid var(--primary);
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-list-phone-item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 24px;
+}
+.header-list-phone-item:hover .linear-header-phone {
+  color: var(--primary);
+}
+.header-phone-icon {
+  margin-right: 10px;
+}
+.header-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.header-list-item {
+  transition: 1s;
+}
+.header-list-item:hover {
+  background-color: var(--primary-green-neon);
+  padding: var(--sm-sm-pd);
+  border-radius: 2px;
+  transform: rotate(360deg);
+}
+.header-list-item:hover .header-list-item-link {
+  color: var(--primary);
+}
+.header-list-item-link {
+  display: block;
+}
+
+/*header burger menu*/
+
+.burger-menu-wrapper {
+  display: none;
+  cursor: pointer;
+}
+.burger-menu-wrapper-secondary .b-m-line {
+  background-color: var(--primary-green-dark);
+}
+.b-m-line {
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary);
+  margin-top: 3px;
+}
+.burger-menu-wrapper:active .b-m-line {
+  background-color: var(--primary-green-neon);
+}
+.burger-menu-wrapper-secondary:active .b-m-line {
+  background-color: var(--primary-green-neon);
+}
+
+/*header secondary*/
+
+#header-pure {
+  position: absolute;
+  width: 100%;
+  padding-top: 36px;
+  background-color: var(--secondary);
+}
+.header-wrapper-green-grey-light {
+  border-bottom: 1px solid var(--secondary-green-grey-light);
+}
+.header-logo-wrapper-green-grey-light {
+  border-right: 1px solid var(--secondary-green-grey-light);
+}
+.header-list-item-link-secondary:hover {
+  color: var(--primary-grey);
+}
+
+/*header-pure-secondary*/
+
+#header-pure-secondary {
+  position: absolute;
+  width: 100%;
+  padding-top: 36px;
+  background-color: var(--primary);
+}

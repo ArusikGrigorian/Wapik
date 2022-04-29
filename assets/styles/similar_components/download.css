@@ -1,0 +1,37 @@
+/*download primary page*/
+
+#download {
+  padding: 75px 0 75px 0;
+  background-image: url(../../media/images/download/download-primary.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#download-secondary {
+  padding: 75px 0 75px 0;
+  background-image: url(../../media/images/download/download-secondary.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.download-general-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-motto {
+  margin-top: 10px;
+}
+.download-btn {
+  transition: 1s;
+}
+.download-btn:hover {
+  transform: scale(1.5);
+}
+
+/*download secondary page*/
+
+.download-secondary {
+  padding: 75px 0 75px 0;
+  background-image: url(../../media/images/download/download-secondary.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

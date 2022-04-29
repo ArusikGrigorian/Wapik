@@ -1,0 +1,40 @@
+/*pricing primary-general page*/
+
+.pricing-general-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.pricing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.single-pricing-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--primary-grey);
+  padding: 32px 60px;
+}
+.single-pricing-wrapper:nth-child(2) {
+  border-left: none;
+  border-right: none;
+}
+.pricing-term {
+  margin-top: -15px;
+}
+.pricing-companies-wrapper {
+  margin-top: 25px;
+}
+.single-pricing-company {
+  margin-bottom: 10px;
+}
+.pricing-btn {
+  margin-top: 23px;
+  transition: 1s;
+}
+.pricing-btn:hover {
+  background-color: var(--primary-green-dark);
+}

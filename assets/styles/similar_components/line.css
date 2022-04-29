@@ -1,0 +1,17 @@
+@import url(../var/var.css);
+
+.short-line {
+  width: 65px;
+  height: 1px;
+  background-color: var(--primary-green-neon);
+}
+
+.long-line {
+  width: 90px;
+  height: 2px;
+  background-color: var(--secondary-grey-light);
+}
+
+.vertical-line {
+  transform: rotate(90deg);
+}

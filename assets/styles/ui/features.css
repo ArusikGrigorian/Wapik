@@ -1,0 +1,26 @@
+/*text align css*/
+
+.t-algn-l {
+  text-align: left;
+}
+.t-algn-r {
+  text-align: left;
+}
+.t-algn-c {
+  text-align: center;
+}
+.t-algn-j {
+  text-align: justify;
+}
+
+/*font waight css*/
+
+.f-w-bld {
+  font-weight: bold;
+}
+
+/*text transform css*/
+
+.t-t-up {
+  text-transform: uppercase;
+}
